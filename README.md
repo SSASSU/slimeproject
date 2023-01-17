@@ -7,7 +7,7 @@
 -  자원부족시 Monitoring측에서 Alert을 API로 받아 노드를 생성과 Cluster Join을 담당하는 Worker Manager(Python)
 
 ## 📜 Architecture
-[작성중]  
+![as_design](https://cdn.discordapp.com/attachments/1061882461384093786/1064783995369439372/autoscailing_draft.png)
 
 ## ⚔️ Challenge
 - inventory.ini를 Custom Resource로 관리
@@ -17,4 +17,3 @@
 - CR을 상태를 보고 Worker Manager에게 노드 생성/삭제를 요청하는 Operator작성 필요
 
 <!-- External links -->
-[jekyll]: https://jekyllrb.com/

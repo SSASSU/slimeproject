@@ -1,8 +1,7 @@
 # mi-infra
 
 ## Overview
-Host OS : Rocky Linux release 8.6 (Green Obsidian)
-![mi-infra.png](./docs/mi-infra.png)
+[작성중]
 
 ## etcd configuration
 

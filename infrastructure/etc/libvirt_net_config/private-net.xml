@@ -1,7 +1,0 @@
-<network>
-  <name>private-net-1</name>
-  <bridge name='virbr1' stp='on' delay='0'/>
-  <ip address='172.16.2.1' netmask='255.255.255.0'>
-  </ip>
-</network>
-

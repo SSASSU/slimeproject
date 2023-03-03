@@ -1,5 +1,5 @@
 # Slime Project 
-이 프로젝트는 K8s환경에서 노드 Auto Scailing구현을 목표로 합니다.   
+이 프로젝트는 K8s환경에서 노드 Autoscaling구현을 목표로 합니다.   
 
 
 ## 🛠️ Environment

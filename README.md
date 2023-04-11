@@ -6,6 +6,13 @@
 - 노드 Provisioning으로 Terraform(libvirt provider)을 사용하고, 생성한 VM노드들로 K8s Cluster 구성(Master 1개, Woker n개)
 -  자원부족시 Monitoring측에서 Alert을 API로 받아 노드를 생성과 Cluster Join을 담당하는 Worker Manager(Python)
 
+OS : Rocky 8.7
+- go 1.20.3
+- Consul v1.16.0
+- terraform 1.4.4
+- libvirt 8.0.0, qemu 6.2.0
+- kubernetes v1.25.6(kubespray release-2.21)
+
 ## 📜 Architecture
 ![as_design](https://cdn.discordapp.com/attachments/1061882461384093786/1064783995369439372/autoscailing_draft.png)
 

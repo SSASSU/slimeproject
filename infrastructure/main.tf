@@ -7,10 +7,10 @@ terraform {
 }
 
 terraform {
-  backend "etcdv3" {
-    endpoints = ["localhost:2379"]
+  backend "consul" {
+    path      = "consul"
+    address   = "127.0.0.1:8500"
     lock      = true
-    prefix    = "terraform-state/"
   }
 }
 
